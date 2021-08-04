@@ -5,7 +5,7 @@ from selenium import webdriver
 #this will install selenium
 # Subscribe to www.youtube.com/HasanImam
 
-driver =  webdriver.Chrome('D:\\SERVER\\chromedriver.exe')#webdrivers link will be in video description
+driver =  webdriver.Chrome('/home/kali/Downloads/chromedriver')#webdrivers link will be in video description
 driver.get("https://web.whatsapp.com/")
 
 
